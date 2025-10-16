@@ -1,7 +1,19 @@
 @url = http://localhost:3447
 
+### GET INFO
+GET {{url}}/trpc/getInfo
 
 ### GET USER BY ID
-GET {{url}}/userById?input="1"
+GET {{url}}/trpc/userById?input="2"
+
+### GET USER LIST
+GET {{url}}/trpc/userList
+
+### GET USER LIST
+POST {{url}}/trpc/userCreate
 Content-Type: application/json
 trpc-accept: application/json
+
+{
+  "name": "Robert"
+}

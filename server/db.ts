@@ -1,5 +1,5 @@
 type User = { id: string; name: string };
- 
+
 const users: User[] = [
   { id: "1", name: "Hans" },
   { id: "2", name: "Greta" },
