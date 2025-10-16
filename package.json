@@ -1,0 +1,19 @@
+{
+  "name": "foray-trpc-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@trpc/client": "^11.6.0",
+    "@trpc/server": "^11.6.0",
+    "tsx": "^4.20.6",
+    "zod": "^4.1.12"
+  }
+}
